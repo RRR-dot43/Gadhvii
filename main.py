@@ -115,7 +115,7 @@ async def force_sub_check(bot: Client, message: Message) -> bool:
         if user.status in [ChatMemberStatus.LEFT, ChatMemberStatus.BANNED]:
             buttons = [
                 [
-                    InlineKeyboardButton(text="📢 Join Channel", url=f"https://t.me/CoreXExtractor"),
+                    InlineKeyboardButton(text="📢 Join Channel", url=f"https://t.me/+Qz3PFY9TW7BhNDg1"),
                     InlineKeyboardButton(text="🔄 Verify", callback_data="verify_sub")
                 ]
             ]
@@ -129,7 +129,7 @@ async def force_sub_check(bot: Client, message: Message) -> bool:
     except UserNotParticipant:
         buttons = [
             [
-                InlineKeyboardButton(text="📢 Join Channel", url=f"https://t.me/CoreXExtractor"),
+                InlineKeyboardButton(text="📢 Join Channel", url=f"https://t.me/+Qz3PFY9TW7BhNDg1"),
                 InlineKeyboardButton(text="🔄 Verify", callback_data="verify_sub")
             ]
         ]
@@ -143,7 +143,7 @@ async def force_sub_check(bot: Client, message: Message) -> bool:
         logging.error(f"Force sub check error: {e}")
         buttons = [
             [
-                InlineKeyboardButton(text="📢 Join Channel", url=f"https://t.me/CoreXExtractor"),
+                InlineKeyboardButton(text="📢 Join Channel", url=f"https://t.me/+Qz3PFY9TW7BhNDg1"),
                 InlineKeyboardButton(text="🔄 Verify", callback_data="verify_sub")
             ]
         ]
